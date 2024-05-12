@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock - Paper - Scissor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock - Paper - Scissor</h1>
+    <div class="score-board">
+      <div id="user-label" class="badge">User</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+      <div id="computer-label" class="badge">Computer</div>
+    </div>
+    <hr>
+    <div class="result">
+      <p id="result" class="result">Computer has choosen its move!</p>
+    </div>
+
+    <div class="choices">
+      <button class="choice" id="rock">
+        <img src="./images/rock.png" alt="Rock">
+      </button>
+      <button class="choice" id="paper">
+        <img src="./images/paper.png" alt="Paper">
+      </button>
+      <button class="choice" id="scissors">
+        <img src="./images/scissors.png" alt="Scissor">
+      </button>
+    </div>
+
+    <p id="action-message">Make your move</p>
+    <button class="reset-button" onclick="window.location.reload()">Reset</button>
+  <script src="index.js"></script>
+</body>
+</html>
