@@ -100,7 +100,16 @@ hr {
 }
 
 @media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
   .choice img {
     width: 80px;
+  }
+  .score-board {
+    width: 80vw;
+  }
+  .result p {
+    font-size: 1rem;
   }
 }
